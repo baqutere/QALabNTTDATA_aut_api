@@ -102,18 +102,6 @@
             <version>20250107</version>
         </dependency>
 
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-cucumber</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-
         <!-- General test libraries -->
         <dependency>
             <groupId>junit</groupId>
