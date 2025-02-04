@@ -1,7 +1,5 @@
 package com.nttdata.model;
 
-import java.time.LocalDateTime;
-
 public class Order {
 
     private int id;
@@ -11,7 +9,8 @@ public class Order {
     private String status;
     private boolean complete;
 
-    public Order() {}
+    public Order() {
+    }
 
     public Order(int id, int petId, int quantity, String shipDate, String status, boolean complete) {
         this.id = id;
